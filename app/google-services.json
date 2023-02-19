@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341220553051",
+    "project_id": "dogrescue-3842f",
+    "storage_bucket": "dogrescue-3842f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341220553051:android:efa9ab2821f992ff31aa7e",
+        "android_client_info": {
+          "package_name": "com.underground.DogRescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341220553051-huaa9t8tektdsm4k9hpsrhqs9n1fer18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2xe0acXeb4zCVoFKbXL-BVFlZ42URV8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341220553051-huaa9t8tektdsm4k9hpsrhqs9n1fer18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

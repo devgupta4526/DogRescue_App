@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.underground.DogRescue">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dog_logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dog_logoo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.underground.DogRescue.AchievementActivity" />
+        <activity
+            android:name="com.underground.DogRescue.DonationActivity"
+            android:theme="@style/donationTheme" />
+        <activity android:name="com.underground.DogRescue.PostDetailsActivity" />
+        <activity android:name="com.underground.DogRescue.SplashActivity"
+            android:theme="@style/splashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.underground.DogRescue.AddBookActivity"
+            android:theme="@style/registerTheme" />
+        <activity
+            android:name="com.underground.DogRescue.ResetPasswordActivity"
+            android:parentActivityName="com.underground.DogRescue.LoginActivity" />
+        <activity
+            android:name="com.underground.DogRescue.MessageActivity"
+            android:theme="@style/registerTheme" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.underground.DogRescue.LoginActivity"
+            android:parentActivityName="com.underground.DogRescue.StartActivity" />
+        <activity
+            android:name="com.underground.DogRescue.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.underground.DogRescue.RegisterActivity"
+            android:parentActivityName="com.underground.DogRescue.StartActivity" />
+        <activity
+            android:name="com.underground.DogRescue.StartActivity"
+            android:theme="@style/registerTheme" />
+    </application>
+
+</manifest>
